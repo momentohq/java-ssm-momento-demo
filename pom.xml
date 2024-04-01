@@ -44,9 +44,9 @@
 			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.google.code.simple-spring-memcached</groupId>
+			<groupId>software.momento.java.spring</groupId>
 			<artifactId>momento-provider</artifactId>
-			<version>4.2.14-SNAPSHOT</version>
+			<version>4.2.15-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
@@ -58,12 +58,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
-	<repositories>
-		<repository>
-			<id>momento</id>
-			<name>maven-public</name>
-			<url>https://momento.jfrog.io/artifactory/maven-public</url>
-		</repository>
-	</repositories>
 </project>
